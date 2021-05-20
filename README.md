@@ -2,6 +2,7 @@
 
 # reactnative-app
 ![](https://github.com/mahmoud-mohasseb/reactnative-app/blob/main/assets/reactnativeapp.gif)
+![](https://github.com/mahmoud-mohasseb/reactnative-app/blob/main/assets/Simulator%20Screen%20Recording%20-%20iPhone%2012%20-%202021-05-20%20at%2014.00.04.mp4)
 
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
