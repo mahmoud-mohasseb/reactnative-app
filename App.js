@@ -1,21 +1,29 @@
-import { StatusBar } from 'expo-status-bar';
+/** @format */
+
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { LogBox } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { useFonts } from 'expo-font';
+// import AppLoading from 'expo-app-loading';
+import Screens from './screens/screens';
+import AppLoading from 'expo-app-loading';
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
+const App = ({ navigation }) => {
+  LogBox.ignoreLogs(['Reanimated 2']);
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+  let [loaded] = useFonts({
+    itim: require('./assets/font/Itim-Regular.ttf'),
+    GoblinOne: require('./assets/font/GoblinOne-Regular.ttf'),
+  });
+
+  if (!loaded) {
+    return <AppLoading />;
+  } else {
+    return (
+      <NavigationContainer>
+        <Screens />
+      </NavigationContainer>
+    );
+  }
+};
+export default App;
