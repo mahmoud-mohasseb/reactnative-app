@@ -1,7 +1,7 @@
 <!-- @format -->
 
 # reactnative-app
-![]('https://github.com/mahmoud-mohasseb/reactnative-app/blob/main/assets/reactnativeapp.gif')
+![](https://github.com/mahmoud-mohasseb/reactnative-app/blob/main/assets/reactnativeapp.gif)
 
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
