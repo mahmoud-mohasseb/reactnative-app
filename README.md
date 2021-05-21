@@ -3,8 +3,8 @@
 # reactnative-app
 ![](https://github.com/mahmoud-mohasseb/reactnative-app/blob/main/assets/reactnativeapp.gif)
 
-## images 
-- it's all came from online Links source={uri:''} .🇪🇬 
+## Images 
+- it's all came from online Links <Image  source={uri:''} /> .🇪🇬 
 
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
