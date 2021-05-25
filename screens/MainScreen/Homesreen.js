@@ -19,8 +19,7 @@ const Homescreen = ({ navigation }) => {
   return (
     <ImageBackground
       source={{
-        uri:
-          'https://images.unsplash.com/photo-1597148543182-830ef7bbb904?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2898&q=80',
+        uri: 'https://images.unsplash.com/photo-1597148543182-830ef7bbb904?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2898&q=80',
       }}
       style={{
         width: width,
@@ -61,7 +60,7 @@ const Homescreen = ({ navigation }) => {
             horizontal
             showsHorizontalScrollIndicator={false}
             style={{ top: 50, width: width, height: 100 }}>
-            {Towers.map((item, index) => (
+            {Towers.map((item, index, id) => (
               <View
                 style={{
                   width: 120,
@@ -71,6 +70,7 @@ const Homescreen = ({ navigation }) => {
                   borderRadius: 20,
                 }}>
                 <Image
+                  key={id}
                   style={{
                     width: 100,
                     height: 180,
@@ -80,6 +80,7 @@ const Homescreen = ({ navigation }) => {
                   source={{ uri: item.img }}
                 />
                 <Text
+                  key={index}
                   style={{
                     textAlign: 'center',
                     fontWeight: 'bold',

@@ -1,0 +1,9 @@
+{
+    "json.schemas": [
+        
+    ],
+    "prettier.singleQuote": true,
+    "editor.formatOnSave": true,
+    "prettier.insertPragma": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
