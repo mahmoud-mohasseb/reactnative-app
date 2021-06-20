@@ -1,5 +1,5 @@
 <!-- @format -->
-
+![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/mahmoud-mohasseb/reactnative-app/react-native-screens?label=react-native-screens)
 # reactnative-app
 ![](https://github.com/mahmoud-mohasseb/reactnative-app/blob/main/assets/reactnativeapp.gif)
 
